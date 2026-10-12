@@ -1,0 +1,100 @@
+$ logcat -c
+
+$ logcat -d -v threadtime -s ActivityTaskManager WindowManager ActivityStarterMifavor TransitionZteHook
+--------- beginning of system
+10-12 13:33:44.447  3213 12294 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:44.447  3213 12294 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:44.448  3213 12294 W WindowManager: No change. rotation = 0
+10-12 13:33:44.449  3213 12294 I ActivityTaskManager: call MindSyncManager.Trigger.noteAppForeground(), next=ActivityRecord{89128351 u0 com.zte.mifavor.launcher/com.android.launcher3.uioverrides.QuickstepLauncher t2}
+10-12 13:33:45.497  3213  5062 I ActivityTaskManager: start unSetPauseAdvance
+10-12 13:33:45.498  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.498  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:45.498  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.498  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:45.499  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.499  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:45.499  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.499  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:45.511  3213  3737 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.511  3213  3737 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:45.511  3213  3737 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:45.511  3213  3737 E ActivityTaskManager: Unable to get servicetracker HAL instance
+--------- beginning of main
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: ***** resolveActivity_DoubleApp(): intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 pkg=com.android.chrome cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[727,2354][954,2698] }, callingPackage: com.zte.mifavor.launcher, userid: 0
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getComponent(): ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getAction(): android.intent.action.MAIN
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getScheme(): null
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getType(): null
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getCategories(): {android.intent.category.LAUNCHER}
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getData(): null
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getClipData(): null
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getExtras(): null
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: intent.getPackage(): com.android.chrome
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: callingPackage: com.zte.mifavor.launcher
+10-12 13:33:46.112  3213  5062 W ActivityStarterMifavor: not show double choose, return userId:0,from:com.zte.mifavor.launcher  to:com.android.chrome,mCachedTargetClassName:null,componentName:ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main},action:android.intent.action.MAIN
+10-12 13:33:46.113  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.113  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.113  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.113  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.117  3213  5062 I ActivityTaskManager: advanceAttachStartingSurface start
+10-12 13:33:46.117  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.117  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.118  3213  5062 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 pkg=com.android.chrome cmp=com.android.chrome/com.google.android.apps.chrome.Main bnds=[727,2354][954,2698]} with LAUNCH_SINGLE_INSTANCE_PER_TASK from uid 10456 from package com.zte.mifavor.launcher (sr=89128351) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-12 13:33:46.119  3213  4162 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.119  3213  4162 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.123  3213  5743 W WindowManager: No change. rotation = 0
+10-12 13:33:46.192  3213  5743 W WindowManager: No change. rotation = 0
+10-12 13:33:46.192  3213  5743 I ActivityTaskManager: call MindSyncManager.Trigger.noteAppForeground(), r=ActivityRecord{29611865 u0 com.android.chrome/com.google.android.apps.chrome.Main t579}
+10-12 13:33:46.193  3213  5743 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.193  3213  5743 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.513  3213  3347 I ActivityTaskManager: Displayed com.android.chrome/com.google.android.apps.chrome.Main for user 0: +398ms
+10-12 13:33:46.801  3213  5743 I ActivityTaskManager: start unSetPauseAdvance
+10-12 13:33:46.803  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.803  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.803  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.803  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.816  3213  4087 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.816  3213  4087 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:46.816  3213  4087 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:46.816  3213  4087 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:47.130  3213 15228 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:47.130  3213 15228 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:47.131  3213 15228 W WindowManager: No change. rotation = 0
+10-12 13:33:47.132  3213 15228 I ActivityTaskManager: call MindSyncManager.Trigger.noteAppForeground(), next=ActivityRecord{89128351 u0 com.zte.mifavor.launcher/com.android.launcher3.uioverrides.QuickstepLauncher t2}
+10-12 13:33:48.442  3213  7009 I ActivityTaskManager: start unSetPauseAdvance
+10-12 13:33:48.829  3213  5743 I ActivityTaskManager: start unSetPauseAdvance
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: ***** resolveActivity_DoubleApp(): intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 pkg=in.hridayan.ashell cmp=in.hridayan.ashell/.activities.MainActivity bnds=[499,184][726,514] }, callingPackage: com.zte.mifavor.launcher, userid: 0
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getComponent(): ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity}
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getAction(): android.intent.action.MAIN
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getScheme(): null
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getType(): null
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getCategories(): {android.intent.category.LAUNCHER}
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getData(): null
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getClipData(): null
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getExtras(): null
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: intent.getPackage(): in.hridayan.ashell
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: callingPackage: com.zte.mifavor.launcher
+10-12 13:33:52.657  3213  4087 W ActivityStarterMifavor: not show double choose, return userId:0,from:com.zte.mifavor.launcher  to:in.hridayan.ashell,mCachedTargetClassName:null,componentName:ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity},action:android.intent.action.MAIN
+10-12 13:33:52.658  3213  4087 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:52.658  3213  4087 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:52.658  3213  4087 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:52.658  3213  4087 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:52.663  3213  4087 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:52.663  3213  4087 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:52.664  3213  4087 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 pkg=in.hridayan.ashell cmp=in.hridayan.ashell/.activities.MainActivity bnds=[499,184][726,514]} with LAUNCH_MULTIPLE from uid 10456 from package com.zte.mifavor.launcher (sr=89128351) (BAL_ALLOW_VISIBLE_WINDOW) result code=2
+10-12 13:33:52.668  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:52.668  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:52.669  3213  5062 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:52.669  3213  5062 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:52.672  3213  5062 W WindowManager: No change. rotation = 0
+10-12 13:33:52.673  3213  5062 I ActivityTaskManager: call MindSyncManager.Trigger.noteAppForeground(), next=ActivityRecord{132820726 u0 in.hridayan.ashell/.activities.MainActivity t574}
+10-12 13:33:53.354  3213  4087 I ActivityTaskManager: start unSetPauseAdvance
+10-12 13:33:53.356  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:53.356  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:53.356  3213  3350 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:53.356  3213  3350 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:53.369  3213 15228 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:53.369  3213 15228 E ActivityTaskManager: Unable to get servicetracker HAL instance
+10-12 13:33:53.369  3213 15228 W ActivityTaskManager: servicetracker HIDL not available
+10-12 13:33:53.369  3213 15228 E ActivityTaskManager: Unable to get servicetracker HAL instance
+
